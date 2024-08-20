@@ -16,7 +16,7 @@ load_dotenv()
 # Get the API key from the environment variable
 api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
-    api_key = "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"
+    api_key = "YOUR GROQ_API_KEY"
 
 DB_FAISS_PATH = "vectorstore/db_faiss"
 
